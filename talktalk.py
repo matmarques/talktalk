@@ -19,4 +19,4 @@ async def on_message(message):
         elif "how are you" in message.content: 
               await client.send_message(message.channel, "I'm good, thanks for asking", tts=True)
               
-client.run(token, bot=False)
+client.run(token)
